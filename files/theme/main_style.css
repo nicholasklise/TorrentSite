@@ -1,0 +1,747 @@
+
+/* General Styling and Structure
+--------------------------------------------------------------------------------*/
+
+h3 {
+	font-size: 1.3em;
+	margin: 0 0 10px 0;
+}
+
+a {
+	text-decoration: none;
+	color: #898989;
+}
+
+a:hover {
+	color: #d2d2d2;
+}
+
+a img {
+	border: 0;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #7b7b7b;
+	background: #1e1e1e;
+}
+
+h2 {
+	font-size: 1.9em;
+	margin: 0;
+	padding: .3em 0;
+	line-height: 1.2;
+	font-family: "Dosis", Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 0;
+	padding: .5em 0;
+}
+blockquote {
+	font-style:italic;
+	border-left:4px solid #333;
+	margin:10px 0 10px 0;
+	padding-left:20px;
+	line-height:1.5;
+	color:#555;
+}
+
+#content p {
+	color: #7b7b7b;
+}
+
+#container {
+	margin: 0 auto;
+	width: 950px;
+}
+
+#header {
+	clear: both;
+	padding: 0 0 0 22px;
+	border-bottom: 1px solid #2d2d2d;
+	margin-bottom: 26px;
+}
+
+.wsite-logo,
+.wsite-logo a {
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.wsite-logo,
+.wsite-logo a:hover {
+	color: #ffffff;
+}
+
+#header .wsite-logo {
+	font-size: 48px;
+	color: #ffffff;
+	font-family: "Dosis", Arial, Helvetica, sans-serif;
+	margin: 0;
+	font-weight: 200;
+	padding: 0;
+	-webkit-text-stroke-width: 0.2px;
+}
+
+#header-right a {
+	color: #898989;
+}
+
+#header-right a:hover {
+	color: #d2d2d2;
+}
+
+/* Header Area
+-------------------------------------------------------------*/
+
+#header {
+	width: 100%;
+	height: 90px;
+}
+
+#header,
+#header table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#header td {
+	vertical-align: middle;
+	text-align: left;
+}
+
+#logo {
+	padding: 25px 0;
+}
+
+#header-right {
+	padding: 0 0 0 10px;
+}
+
+#header-right table {
+	width: 1px;
+}
+
+#header-right table,
+#header-right .search,
+#header-right .wsite-search {
+	clear: right;
+	float: right;
+}
+
+#header-right td {
+	padding: 0;
+}
+
+/* TOP RIGHT: Phone Number
+--------------------------------------------------------------------------------*/
+
+#header-right .phone-number .wsite-text {
+	color: #7b7b7b;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	white-space: nowrap;
+	margin: 5px 0 5px 15px;
+}
+
+/* TOP RIGHT: Content Area
+--------------------------------------------------------------------------------*/
+
+#header-right .wsite-social {
+	vertical-align: middle;
+	margin: 5px 0 5px 10px;
+}
+
+.wsite-social-item {
+	width: 23px;
+	height: 23px;
+	margin: 0 0 0 3px;
+	background-image:url(social-black.png);
+}
+
+.wsite-social-facebook {background-position:0 0;}
+	.wsite-social-facebook:hover {background-position:0 -23px;}
+	.wsite-social-facebook:active {background-position:0 -46px;}
+.wsite-social-pinterest {background-position:-23px 0;}
+	.wsite-social-pinterest:hover {background-position:-23px -23px;}
+	.wsite-social-pinterest:active {background-position:-23px -46px;}
+.wsite-social-twitter {background-position:-46px 0;}
+	.wsite-social-twitter:hover {background-position:-46px -23px;}
+	.wsite-social-twitter:active {background-position:-46px -46px;}
+.wsite-social-linkedin {background-position:-69px 0;}
+	.wsite-social-linkedin:hover {background-position:-69px -23px;}
+	.wsite-social-linkedin:active {background-position:-69px -46px;}
+.wsite-social-mail {background-position:-92px 0;}
+	.wsite-social-mail:hover {background-position:-92px -23px;}
+	.wsite-social-mail:active {background-position:-92px -46px;}
+.wsite-social-rss {background-position:-115px 0;}
+	.wsite-social-rss:hover {background-position:-115px -23px;}
+	.wsite-social-rss:active {background-position:-115px -46px;}
+.wsite-social-flickr {background-position:-138px 0;}
+	.wsite-social-flickr:hover {background-position:-138px -23px;}
+	.wsite-social-flickr:active {background-position:-138px -46px;}
+.wsite-social-plus {background-position:-161px 0;}
+	.wsite-social-plus:hover {background-position:-161px -23px;}
+	.wsite-social-plus:active {background-position:-161px -46px;}
+.wsite-social-vimeo {background-position:-184px 0;}
+	.wsite-social-vimeo:hover {background-position:-184px -23px;}
+	.wsite-social-vimeo:active {background-position:-184px -46px;}
+.wsite-social-yahoo {background-position:-207px 0;}
+	.wsite-social-yahoo:hover {background-position:-207px -23px;}
+	.wsite-social-yahoo:active {background-position:-207px -46px;}
+.wsite-social-youtube {background-position:-230px 0;}
+	.wsite-social-youtube:hover {background-position:-230px -23px;}
+	.wsite-social-youtube:active {background-position:-230px -46px;}
+
+/* TOP RIGHT: Search Box
+--------------------------------------------------------------------------------*/
+
+#header-right .search {
+}
+
+#header-right .wsite-search {
+	margin: 5px 0 5px 15px;
+	vertical-align: middle;
+}
+
+#header-right .wsite-search-input {
+	width: 177px;
+	height: 14px;
+	border: none;
+	padding: 10px 10px 8px !important;
+	color: #5e5e5e;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(input-bg.png) no-repeat;
+}
+
+#header-right .wsite-search-button {
+	width: 23px;
+	height: 32px;
+	border: none;
+	margin: 0;
+	padding: 0;
+	background: url(submit-bg.png) no-repeat;
+}
+
+/* side-nav
+--------------------------------------------------------------------------------*/
+
+#avmenu {
+	clear: left;
+	float: left;
+	width: 241px;
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+}
+
+#avmenu ul {
+	list-style: none;
+	width: 241px;
+	margin: 0;
+	padding: 0;
+}
+
+#avmenu li {
+	list-style: none;
+}
+
+#avmenu li a {
+	font-weight: 300;
+	line-height: 1;
+	text-decoration: none;
+	color: #7b7b7b;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	display: block;
+	padding: 11px 5px 11px 22px;
+	border-bottom: 1px solid #2a2a2a;
+}
+
+#avmenu ul > li:last-child a,
+#avmenu ul > span:last-child li a {
+	border-bottom: none;
+}
+
+#avmenu li#active a,
+#avmenu a:hover {
+	color: #b1b1b1;
+	background: #141414;
+}
+
+/* Navigation Drop-Down Menu Customization
+--------------------------------------------------------------------------------*/
+
+#wsite-menus .wsite-menu {
+	position: relative;
+	top: -1px;
+	border-top: 1px solid #2d2d2d;
+}
+
+#wsite-menus .wsite-menu li a {
+	padding: 6px 5px 7px 25px;
+	background: #141414;
+	border: none;
+	border-bottom: 1px solid #2d2d2d;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	color: #7b7b7b;
+}
+
+#wsite-menus .wsite-menu li a:hover {
+	color: #b1b1b1;
+	background: #0c0c0c;
+}
+
+/* main
+--------------------------------------------------------------------------------*/
+
+#main-wrap {
+}
+
+#main {
+	float: right;
+	width: 681px;
+	margin: 0;
+}
+
+#content {
+	margin: 0;
+	padding: 25px 0;
+	min-height: 400px;
+	overflow-x: visible !important;
+	overflow-x: hidden;
+}
+
+#banner {
+}
+
+.tall-header-page .wsite-header {
+	width: 681px;
+	height: 243px;
+	background: url(banner-tall.jpg) no-repeat;
+}
+
+/* PAGE TYPE: banner-tall
+--------------------------------------------------------------------------------*/
+
+.short-header-page .wsite-header {
+	width: 681px;
+	height: 163px;
+	background: url(banner-short.jpg) no-repeat;
+}
+
+/* TOP RIGHT: banner-landing
+--------------------------------------------------------------------------------*/
+
+.landing-page #banner {
+	background: #141414;
+}
+
+#bannerleft {
+	clear: left;
+	float: right;
+	width: 381px;
+}
+
+.landing-page .wsite-header {
+	width: 381px;
+	height: 313px;
+	background: url(banner-landing.jpg) no-repeat;
+}
+
+.landing-banner-outer {
+	display: table;
+	#position: relative;
+	overflow: hidden;
+}
+
+.landing-banner-mid {
+	#position: absolute;
+	#top: 50%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.landing-banner-inner {
+	#position: relative;
+	#top: -50%;
+}
+
+#bannerright {
+	float: left;
+	width: 214px;
+	height: 313px;
+	padding: 0 50px 0 30px;
+}
+
+#bannerright h2 {
+	color: #ffffff;
+	font-size: 28px;
+	font-weight: normal;
+	padding: 0px;
+	line-height: 28px;
+}
+
+#bannerright p {
+	color: #7b7b7b;
+	padding: 20px 0px;
+	line-height: 140%;
+	margin: 0;
+}
+
+#bannerright .wsite-button {
+	margin: 0;
+}
+
+/* TOP RIGHT: banner-short
+--------------------------------------------------------------------------------*/
+
+.very-tall-header-page .wsite-header {
+	width: 760px;
+	height: 225px;
+	background: url(banner-tall.jpg) no-repeat;
+}
+
+/* PAGE TYPE: nobanner
+--------------------------------------------------------------------------------*/
+
+.no-header-page #banner {
+	height: auto;
+	padding: 0;
+	display: none;
+}
+
+.no-header-page #content {
+	padding-top: 0;
+}
+
+/* PAGE TYPE: banner-splash
+--------------------------------------------------------------------------------*/
+
+.splash-page {
+	margin: 0 auto;
+	padding: 0;
+	background: #f4f4f4 url(splash-bodybg.jpg) top center repeat-y;
+}
+
+.splash-page #header {
+	width: 570px;
+}
+
+.splash-page #header-right {
+	float: right;
+	padding-right: 8px;
+}
+
+.splash-page #banner {
+	width: 560px;
+	height: 115px;
+	border: none;
+	padding: 5px 0 0 0;
+}
+
+.splash-page .wsite-header {
+	width: 560px;
+	height: 115px;
+	border: none;
+	background: url(banner-splash.jpg) no-repeat;
+}
+
+.splash-page #wrap {
+	width: 560px;
+	padding: 0 10px 0 10px;
+}
+
+.splash-page #content {
+	width: 538px;
+}
+
+.splash-page #footer {
+	width: 560px;
+}
+
+/* Footer
+--------------------------------------------------------------------------------*/
+
+#footer {
+	clear: both;
+	padding: 24px;
+	color: #7b7b7b;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 1px solid #2d2d2d;
+	padding: 50px 22px 55px 0;
+	text-align: right;
+}
+
+#footer p {
+	color: #7b7b7b;
+}
+
+#footer a {
+	color: #aaa;
+}
+
+#footer a:hover {
+	color: #fff;
+}
+
+#footer span {
+	vertical-align: middle;
+}
+
+#footer h2 {
+	font-size: 16px;
+	margin: 0 0 2px;
+	padding: .2em 0;
+	line-height: 1.5;
+	font-family: "Exo", "Myriad Pro", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.wsite-footer {  /* make sure enough space between element footer and attribution */
+	margin-bottom: 15px;
+}
+
+/* footer-links
+--------------------------------------------------------------------------------*/
+
+#footer .wsite-social {
+	vertical-align: middle;
+}
+
+#footer .wsite-social-item {
+	width: 23px;
+	height: 23px;
+}
+
+#footer .wsite-social-rss {
+	background: url(rss.png) no-repeat;
+}
+
+#footer .wsite-social-linkedin {
+	background: url(linkedin.png) no-repeat;
+}
+
+#footer .wsite-social-facebook {
+	background: url(facebook.png) no-repeat;
+}
+
+#footer .wsite-social-twitter {
+	background: url(twitter.png) no-repeat;
+}
+
+/* Form Customization
+--------------------------------------------------------------------------------*/
+
+.wsite-form-label {
+	display: inline-block;
+	color: #7b7b7b;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 12px 0 5px 0;
+}
+
+.form-radio-container {
+	color: #7b7b7b;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.wsite-form-input, .wsite-search-element-input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #7b7b7b;
+	background: #0d0d0d url(field.png) repeat-x !important;
+	border: 1px solid #272727;
+	padding: 7px 4px 6px !important;
+	line-height: 1;  /*
+			background:url#fff (field.png);
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+		*/
+}
+
+.form-select {
+	color: #7b7b7b;
+	border: 1px solid #272727;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 3px 4px;
+	width: 320px;
+	height: 27px;
+	line-height: 27px;
+	background: #0d0d0d url(field.png) repeat-x;  /*
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+		*/
+}
+
+/* Footer Form Customization
+--------------------------------------------------------------------------------*/
+
+.wsite-form-container {
+	margin-top:0px !important;
+	text-align:left;
+}
+
+.wsite-footer .wsite-form-label {
+	font-size: 1em;
+	padding: 5px 0 2px 0;
+}
+
+.wsite-footer .wsite-form-field {
+	width:300px !important;
+}
+
+.wsite-footer .form-radio-container {
+	font-size:1em;
+}
+
+.wsite-footer .wsite-form-input {
+	font-size: 1em;
+	width: 100% !important;
+}
+
+.wsite-footer .form-select {
+	width: 100%;
+}
+
+/* Buttons
+--------------------------------------------------------------------------------*/
+
+/*
+  Buttons are styled with background image sprites. There are 4 unique image files:
+   - small & normal-colored  (button_small_grey.png)
+   - large & normal-colored  (button_large_grey.png)
+   - small & highlight-colored  (button_small_orange.png)
+   - large & highlight-colored  (button_large_orange.png)
+
+  Each of these 4 types of buttons must define a :hover state (when user's mouse is over)
+  as well as an :active state (when the user presses down).
+
+  Look at the CSS (especially the inner .wsite-button-inner wrapper), as well as the
+  image files to understand how the liquid-width nature of these buttons work.
+ */
+
+/* small */
+
+.wsite-button {
+	color: #fff !important;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 34px;
+	display: inline-block;
+	font-size: 12px;
+	border: none;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+	padding: 0 15px 0 0;
+	background: url(button.png) no-repeat 100% -105px;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.9);
+}
+
+.wsite-button:hover,
+.wsite-product .wsite-button {
+	background-position: 100% -140px;
+}
+
+.wsite-button:active {
+	background-position: 100% -175px;
+}
+
+.wsite-button-inner {
+	height: 34px;
+	line-height: 34px;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	border: none;
+	text-decoration: none;
+	padding: 0 10px 0 25px;
+	background: url(button.png) no-repeat 0 0;
+}
+
+.wsite-button:hover .wsite-button-inner,
+.wsite-product .wsite-button .wsite-button-inner {
+	background-position: 0 -35px;
+}
+
+.wsite-button:active .wsite-button-inner {
+	background-position: 0 -70px;
+}
+
+/* large */
+
+.wsite-button-large {
+	height: 41px;
+	background: url(button_large.png) no-repeat 100% -126px;
+	padding: 0 15px 0 0;
+}
+
+.wsite-button-large:hover,
+.wsite-product .wsite-button-large {
+	background-position: 100% -168px;
+}
+
+.wsite-button-large:active {
+	background-position: 100% -210px;
+}
+
+.wsite-button-large .wsite-button-inner {
+	height: 41px;
+	line-height: 41px;
+	padding: 0 10px 0 25px;
+	background: url(button_large.png) no-repeat 0 0;
+}
+
+.wsite-button-large:hover .wsite-button-inner,
+.wsite-product .wsite-button-large .wsite-button-inner {
+	background-position: 0 -42px;
+}
+
+.wsite-button-large:active .wsite-button-inner {
+	background-position: 0 -84px;
+}
+
+/* highlight */
+
+/*
+Making the highlighted versions of the buttons is easy because we just need
+to switch out the background images. This works because the different button
+states (normal, :hover, :active) have their sprite coordinates in the same places.
+*/
+
+.wsite-button-large.wsite-button-highlight {
+	background-image: url(button_large_highlight.png);
+}
+
+.wsite-button-large.wsite-button-highlight .wsite-button-inner {
+	background-image: url(button_large_highlight.png);
+}
+
+.wsite-button-highlight {
+	background-image: url(button_highlight.png);
+}
+
+.wsite-button-highlight .wsite-button-inner {
+	background-image: url(button_highlight.png);
+}
